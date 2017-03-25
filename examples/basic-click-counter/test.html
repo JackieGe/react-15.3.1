@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React First Demo</title>
+    <script src="../../build/react.js"></script>
+    <script src="../../build/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
+</head>
+<body>
+    <div id="content"></div>
+    <script type="text/babel">
+        var CommentBox = React.createClass({
+           render: function () {
+               return (
+                   <div className="commentBox">
+                        Hello, i am a comment box.
+                   </div>
+               );
+           }
+        });
+    </script>
+</body>
+</html>
